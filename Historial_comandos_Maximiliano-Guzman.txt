@@ -1,0 +1,138 @@
+ls
+pwd
+man
+man man
+vagrant halt
+wwhoami
+whoami
+clear
+pwd
+ls
+mkdir holi
+ls
+rm holi
+rm -r holi
+ls
+clear
+hostnamectl --help
+hostnamectl status
+hostnamectl hostname
+localectl --help
+passwwd --help
+man passwd
+sudo mandb
+passwwd --help
+man -k network
+apropos networking
+whoami
+pwd
+ls
+cd
+$HOME
+ls
+pwd
+apt
+sudo apt update
+pwd
+sudo apt install tree
+pwd
+passwd --help
+-h
+ls
+clear
+ls -l
+ls
+pwd
+ll
+clear
+tree
+clear
+ssh-keygen
+pwd
+cat $HOME/.ssh/*.pub
+pwd
+cd
+ped
+pwd
+cd /home
+pwd
+mkdir repogit
+cd
+pwd
+mkdir repogit
+ll
+tree
+pwd
+cd repogit
+pwd
+git clone git@github.com:Maxi-Guzman/TP_AySO.git
+ll
+cd TP_AySO/
+ll
+cat README.md 
+PWD
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ll
+git status
+git add .
+git status
+git config --global user.email "max22guz@gmail.com"
+git config --global user.name "Maxi-Guzman"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep "model name"
+head -1 /proc/cpuinfo | grep "model name"
+head /proc/cpuinfo | grep "model name"
+head /proc/cpuinfo | grep "model name" >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+man grep
+grep -v nologin /etc/passwd > lista_ordenada.txt
+ll
+cat lista_ordenada.txt 
+man sort
+sort lista_ordenada.txt -t ":" -k7
+sort lista_ordenada.txt -t ":" -k7 > lista_ordenada.txt 
+cat lista_ordenada.txt 
+sort lista_ordenada.txt -k7 > lista_ordenada.txt 
+cat lista_ordenada.txt 
+ll
+grep -v nologin /etc/passwd > lista_ordenada.txt 
+cat lista_ordenada.txt 
+grep -v nologin /etc/passwd > lista_ordenada.txt | sort lista_ordenada.txt -k7 > lista_ordenada.txt 
+cat lista_ordenada.txt 
+ll
+grep -v nologin /etc/passwd > lista_ordenada.txt 
+cat lista_ordenada.txt 
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+man apropos
+apropos dump traffic
+echo "tcpdump" > comando_dump_net
+man tcpdump
+ll
+echo "Utilizar: man tcpdump" >> comando_dump_net 
+ll
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red "
+cat <<EOF >> README.md 
+Alumno: Maximiliano Guzman
+Division: 312
+Turno: Noche
+EOF
+
+git add .
+git commit -m "<Docs> : <Agregando informacion del alumno>"
+ll
+history -a
